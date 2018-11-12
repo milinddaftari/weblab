@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="5.css" ?> 
+<students>
+<student>
+	<USN>USN : 1MV16CS021</USN>
+	<name>NAME : VENKAT</name>
+	<college>COLLEGE: SIRMVIT</college>
+	<branch>BRANCH : Computer Science and Engineering</branch> <year>YEAR : 2016</year>
+	<e-mail>E-Mail : venkat@gmail.com</e-mail>
+</student>
+<student>
+	<USN>USN : 1MV11IS031</USN>
+	<name>NAME : ADITYA</name>
+	<college>COLLEGE: SIRMVIT </college>
+	<branch>BRANCH : Information Science and Engineering</branch> <year>YEAR : 2011</year>
+	<e-mail>E-Mail : aditya@gmail.com</e-mail>
+</student>
+<student>
+	<USN>USN : 1MV15ME044</USN>
+	<name>NAME : DEVARAJA</name> <college>COLLEGE: SIRMVIT </college> 
+	<branch>BRANCH : Mechanical and Engineering</branch> 
+	<year>YEAR : 2015</year>
+	<e-mail>E-Mail : devaraja@gmail.com</e-mail>
+</student> 
+</students>
