@@ -27,7 +27,7 @@ if(isset($_POST['submit'])) // it checks if the input submit is filled
 {
 $num1 = $_POST['num1'];
 $num2 = $_POST['num2'];
-if(is_numeric($num1) andis_numeric($num1) )
+if(is_numeric($num1) and is_numeric($num2) )
 {
 echo "<tr><td> Addition :</td><td><p>".($num1+$num2)."</p></td>";
 echo "<tr><td> Subtraction :</td><td><p> ".($num1-$num2)."</p></td>"; 
