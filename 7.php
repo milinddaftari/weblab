@@ -12,4 +12,4 @@ transform: translate(-50%, -50%);
 }
 body{background-color:black;}
 </style>
-<p> <?php echo date(" h: i : s A");?> </p> </head></html>html
+<p> <?php echo date(" h: i : s A");?> </p> </head></html>
