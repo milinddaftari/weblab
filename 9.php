@@ -9,21 +9,11 @@ foreach($states1 as $state)
 {
 	if(preg_match( '/xas$/', ($state)))
 		$statesArray[0] = ($state);
-}
-foreach($states1 as $state) 
-{ 
-	if(preg_match('/^k.*s$/i', ($state))) 
+	else if(preg_match('/^k.*s$/i', ($state)))
 		$statesArray[1] = ($state);
-}
-foreach($states1 as $state) 
-{ 
-	if(preg_match('/^M.*s$/', ($state))) 
+	else if(preg_match('/^M.*s$/', ($state)))
 		$statesArray[2] = ($state);
-}
-
-foreach($states1 as $state)
-{ 
-	if(preg_match('/a$/', ($state))) 
+	else if(preg_match('/a$/', ($state)))
 		$statesArray[3] = ($state);
 }
 echo "<br><br>Resultant Array :<br>"; 
